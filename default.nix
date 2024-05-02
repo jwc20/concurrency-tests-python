@@ -23,6 +23,10 @@ in pkgs.mkShell rec {
                 treq
                 gevent
                 trio
+                pandas
+                pprintpp
+                beautifulsoup4
+                selenium
             ];
         })
     ]);
